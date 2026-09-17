@@ -1,0 +1,5 @@
+Connection from ('127.0.0.1', 49830)
+Received: Hello!
+Received: How are you?
+Received: Goodbye!
+Connection with ('127.0.0.1', 49830) closed.
