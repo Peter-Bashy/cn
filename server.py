@@ -22,10 +22,3 @@ def start_server(host='localhost', port=12345):
         print(f"Connection with {client_address} closed.")
 
 start_server()
-# Save client output to a file
-python client.py > output.txt 2>&1
-
-# Push everything to GitHub
-git add server.py client.py output.txt
-git commit -m "Add TCP client/server with output"
-git push

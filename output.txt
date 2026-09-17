@@ -1,8 +1,4 @@
-Traceback (most recent call last):
-  File "/workspaces/cn/client.py", line 17, in <module>
-    start_client()
-    ~~~~~~~~~~~~^^
-  File "/workspaces/cn/client.py", line 5, in start_client
-    client_socket.connect((host, port))
-    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
-ConnectionRefusedError: [Errno 111] Connection refused
+Connected to localhost:12345
+Server response: Echo: Hello!
+Server response: Echo: How are you?
+Server response: Echo: Goodbye!
